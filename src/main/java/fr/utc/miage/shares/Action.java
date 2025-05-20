@@ -57,6 +57,7 @@ public abstract class Action {
         int hash = 3;
         hash = 53 * hash + Objects.hashCode(this.libelle);
         return hash;
+        //return hash;
     }
 
     @Override
